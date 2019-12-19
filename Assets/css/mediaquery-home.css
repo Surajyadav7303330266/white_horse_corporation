@@ -1,0 +1,8 @@
+@media screen and (max-width:500px) {
+    .right{float:left;}
+    .left,.right{height:100px;}
+    .right{margin-top:-40px}
+    .carousel-button{margin-top: 215px;margin-left: 17%;height:45px;width:200px}
+    #li1,#li2,#li3{margin-top:290px;}
+  }
+  

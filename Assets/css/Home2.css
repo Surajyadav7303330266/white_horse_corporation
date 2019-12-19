@@ -1,0 +1,51 @@
+html{scroll-behavior:smooth;}
+.right{float:right;}
+.left,.right{display: inline-block;font-size: 17px;color:black}
+.topborder1{background-color:white;padding-bottom: 10px;border-bottom: 2px dotted black;
+    position: absolute;padding-top: 10px;}
+.topborder1 a{color:black}
+.topborder1 i{cursor: pointer;}
+.left select{font-size: 20px;border:none;border-right:2px solid deepskyblue}
+.topbtn1{border:2px solid #ff8625;background: transparent;font-size: 15px;border-radius: 5px;cursor: pointer;}
+.topbtn2{border:2px solid #ff8625;color:white;background-color: #ff8625;font-size: 15px;border-radius: 5px;cursor: pointer;}
+.topbtn1:hover{border:2px solid #ff8625;background-color: #ff8625;color:white;}
+#search{border:2px solid turquoise;border-radius: 5px;display: none;padding-left:5px;margin-right: 5px;}
+#searchbtn{border:none;background: transparent;}
+#call,#mail{background-color:white;padding-top: 10px;padding-bottom: 10px;width:200px;
+    border-bottom: 1px solid black;display: none;position: absolute;z-index: 2;margin-left: 140px;padding-left: 5px}
+#call{border-bottom: none;margin-top: 46px;}
+.wrapper{
+	position:fixed;top:50%;transform:translateY(-50%);
+}
+.share{
+	width:60px;
+	height:60px;
+	background-color:red;
+	position:relative;
+	cursor:pointer;
+	transition:all 0.2s linear;
+}
+.share .fa{
+	position:absolute;
+	top:50%;left:50%;
+	transform:translate(-50%,-50%);
+	color:#fff;
+	font-size:25px;
+}
+#black{color:black;font-weight: normal;font-size: 15px}
+.share .fa:hover{font-size:30px}
+.share:nth-child(1){background-color:#3b5998;}
+.share:nth-child(2){background-color:#33bdfd;}
+.share:nth-child(3){background-color:#a734b5;}
+.list{margin-top: 30px}
+.list ol li{font-weight: bold;font-size: 30px;}
+.list ol li font{font-weight: bold;}
+.list ol ol li font{font-weight: normal;font-size: 20px}
+.last{background-color:black;height:100%;}
+.col-sm-2 font{color:white;font-weight:bold;font-size:18px;}
+.col-sm-2 p{color:grey;}
+.col-sm-2 p:hover{color:white;}
+.col-sm-4 font{color:white;font-weight:bold;font-size:18px;}
+.col-sm-4 p{color:grey;}
+.col-sm-4 p:hover{color:white;}
+.scroll_to_top{position:absolute;z-index:4;background-color:grey;margin-left:15px;margin-bottom:15px;margin-top:-42px;border:none}

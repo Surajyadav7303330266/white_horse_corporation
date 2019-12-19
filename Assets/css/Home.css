@@ -1,0 +1,27 @@
+.right{float:right;}
+.left,.right{display: inline-block;font-size: 17px;color:white}
+.topborder1{background-color: rgba(0,0,0,0.5);padding-top: 10px;padding-bottom: 10px}
+.topborder1 a{color:white}
+.topborder1 i{cursor: pointer;}
+.hr{width:10px;color:black}
+
+.carousel {
+    margin-bottom: 4rem;
+  }
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  .body-background{margin-top: -70px}
+  .body-background #myCarousel .carousel-inner{
+  width:100%;height:650px;position: absolute;z-index: -100;
+  }
+  .body-background #myCarousel .carousel-inner .carousel-item iframe{width:100%;height: 650px;}
+  .carousel-button{position: absolute;z-index:-95;margin-top: 510px;height:70px;width:250px;font-family:MV Boli;
+    background-color:deepskyblue;border-radius:50px;font-size: 20px;color:white;border:0px;display:block;
+    cursor: pointer;margin-left: 40%}
+  #li1{margin-left: -50px;}
+  #li3{margin-left: 50px;}
+  #li1,#li2,#li3{margin-top: 600px;position: absolute;z-index: -95;background-color: deepskyblue;}
+  #li1:hover,#li2:hover,#li3:hover{cursor: pointer;background-color:white;}
+  iframe{width:100%;height:100%;}

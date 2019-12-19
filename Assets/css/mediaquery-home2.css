@@ -1,0 +1,5 @@
+@media screen and (max-width:550px) {
+    .wrapper{display:none;}
+    .second{margin-top: 110px;}
+    .media0{display:none;}
+}
